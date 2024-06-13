@@ -1,0 +1,14 @@
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/ShowCase.deps.json
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/ShowCase.runtimeconfig.json
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/ShowCase.runtimeconfig.dev.json
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/ShowCase.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/ShowCase.pdb
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/StringLibrary.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/bin/Release/netcoreapp2.1/StringLibrary.pdb
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.AssemblyInfo.cs
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.csproj.CopyComplete
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/ShowCase/obj/Release/netcoreapp2.1/ShowCase.pdb

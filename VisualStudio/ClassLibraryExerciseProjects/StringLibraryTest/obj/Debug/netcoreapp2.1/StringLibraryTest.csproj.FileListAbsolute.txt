@@ -1,0 +1,17 @@
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibraryTest.deps.json
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibraryTest.runtimeconfig.json
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibraryTest.runtimeconfig.dev.json
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibraryTest.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibraryTest.pdb
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibrary.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/bin/Debug/netcoreapp2.1/StringLibrary.pdb
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.AssemblyInfo.cs
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.csproj.CopyComplete
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibraryTest/obj/Debug/netcoreapp2.1/StringLibraryTest.pdb

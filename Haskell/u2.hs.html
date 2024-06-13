@@ -1,0 +1,10 @@
+pack :: [Char] -> [[Char]]
+pack [] = []
+pack (x:xs) = pack' [x] xs
+
+pack' :: [Char] -> [Char] -> [[Char]]
+pack' [] _ = undefined
+pack' ys [] = [ys]
+pack' (y:ys) (x:xs)
+    | y == x = pack' (x:y:ys) xs
+    | otherwise = (y:ys) : pack' [x] xs

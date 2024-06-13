@@ -1,0 +1,58 @@
+= Protokoll Gruppe 05
+Treffen am 15.10.2018
+
+Ort:      APB E065 +
+Beginn:   08:00 Uhr +
+Ende:     09:10 Uhr
+
+__Schriftführer:__ Juan Andrés Osorio Escobar
+
+*Nächstes Treffen:* +
+22.10.2018, 16:40 Uhr, APB/E065
+
+__Teilnehmer:__
+//Tabellarisch oder Aufzählung, Kennzeichnung von Teilnehmern mit besonderer Rolle (z.B. Kunde)
+
+- Vinzent Krausse (Kunde)
+- Dipl.-Inf. Peter Heisig (Tutor)
+- Nico Hahn (Scrummaster)
+- Jannusch Bigge
+- David Stein
+- Xiangyu Hou
+- Juan Andrés Osorio Escobar
+
+== Bemerkungen
+Für die Timesheets soll eine app genutzt werden, es soll also unter der Gruppe entschieden werden,
+mit welcher dieses Time Tracking betrieben werden wird. Der Kunde hat den Wunsch zum Ausdruck
+gebracht, dass er gerne kleine erklärende Kommantare zu den Funktionen und Klassen im Code hätte
+(Neben der Doku). Empfohlen von Tutor wurde das Buch "Clean Code". Stylecop kann auch dazu
+verwendet werden, die gleichen konventionen im Code zu verwenden, wie in der Firma.
+
+== Retrospektive des letzten Sprints
+*Issue referenziert die Issue ID von GitHub*
+// Wie ist der Status der im letzten Sprint erstellten Issues/veteilten Aufgaben?
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Aufgabe |Status |Bemerkung
+|…     |…       |…      |…
+|===
+
+
+== Aktueller Stand
+die Gruppe bekam bisher Einarbeitung für die Aufgabe mit Hilfe von Dokumentation (Aufgabenstellung) und Vortrag (gehalten von Herrn Krausse).
+
+
+Anmerkungen und Kritik zum aktuellen Stand der Software, den Diagrammen und den
+Dokumenten.
+
+== Planung des nächsten Sprints
+*Issue referenziert die Issue ID von GitHub*
+
+// See http://asciidoctor.org/docs/user-manual/=tables
+[option="headers"]
+|===
+|Issue |Titel |Beschreibung |Verantwortlicher |Status
+|…     |…     |…            |…                |…
+|===

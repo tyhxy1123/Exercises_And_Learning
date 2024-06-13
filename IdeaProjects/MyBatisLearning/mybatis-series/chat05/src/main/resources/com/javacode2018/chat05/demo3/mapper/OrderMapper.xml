@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--        private var id: Int? = null-->
+<!--        private var orderId: Int? = null-->
+<!--        private var goodsId: Int? = null-->
+<!--        private var num: Int? = null-->
+<!--        private var totalPrice: Double? = null-->
+
+<mapper namespace="com.javacode2018.chat05.demo3.mapper.OrderMapper">
+    <resultMap id="orderModelMap1" type="com.javacode2018.chat05.demo3.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+        <collection property="orderDetailModelList" ofType="com.javacode2018.chat05.demo3.model.OrderDetailModel">
+            <id column="id" property="id"/>
+            <result column="order_id" property="orderId"/>
+            <result column="goods_id" property="goodsId"/>
+            <result column="num" property="num"/>
+            <result column="total_price" property="totalPrice"/>
+        </collection>
+    </resultMap>
+    <select id="getById1" resultMap="orderModelMap1">
+#         select o.id, o.user_id, o.create_time, o.up_time, d.id, d.order_id, d.goods_id, d.num, d.total_price
+        select *
+        from t_order o, t_order_detail d
+        where o.id = #{value} and o.id = d.order_id
+    </select>
+</mapper>

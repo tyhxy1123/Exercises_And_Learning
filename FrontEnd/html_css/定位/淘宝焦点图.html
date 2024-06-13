@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝焦点图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .tb-promo {
+            position: relative;
+            margin: 100px auto;
+            width: 640px;
+            height: 260px;
+        }
+
+        .tb-promo img {
+            width: 640px;
+            height: 260px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            width: 20px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .prev {
+            left: 0px;
+            border-radius: 0 15px 15px 0;
+
+        }
+
+        .next {
+            right: 0px;
+            border-radius: 50% 0 0 50%;
+        }
+
+        .promo-nav {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background-color: rgba(255, 255, 255, .3);
+            border-radius: 7px;
+        }
+
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            /* text-align: center; */
+            /* color: #fff; */
+            background-color: #fff;
+            /* line-height: 13px; */
+            /* margin-left: 5px;
+            margin-top: 3px; */
+            margin: 3px;
+            border-radius: 50%;
+        }
+
+        .promo-nav .selected {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tb-promo">
+        <img src="images/淘宝焦点图片.webp" alt="">
+        <a href="#" class="prev">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <div class="promo-nav">
+            <ul>
+                <!-- <li>&cir;</li>
+                <li>&cir;</li>
+                <li>&cir;</li>
+                <li>&cir;</li>
+                <li>&cir;</li> -->
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var lis = document.querySelectorAll('li');
+        lis.forEach(li => {
+            li.onclick = function () {
+                lis.forEach(lli => {
+                    lli.className = '';
+                })
+                this.className = 'selected';
+            }
+        });
+    </script>
+</body>
+
+</html>

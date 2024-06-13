@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结构伪类选择器</title>
+    <style>
+        ul.table1 :first-child {
+            color: pink;
+        }
+
+        ul.table1 :last-child {
+            color: skyblue;
+        }
+
+        ul.table1 :nth-child(3) {
+            color: greenyellow;
+        }
+
+        .table2 li:nth-child(even) {
+            background-color: #ccc;
+        }
+
+        .table2 li:nth-child(odd) {
+            background-color: grey;
+        }
+
+        /* n 是从零开始的，每次加一 */
+        /* 只能写 n */
+        .table3 li:nth-child(n) {
+            background-color: pink;
+        }
+
+        .table4 li:nth-child(2n) {
+            /* 偶数行选择 */
+            background-color: #ccc;
+        }
+
+        .table4 li:nth-child(2n+1) {
+            background-color: grey;
+        }
+
+        .table5 li:nth-child(-n+4) {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="table1">
+        <li>我是第1个孩子</li>
+        <li>我是第2个孩子</li>
+        <li>我是第3个孩子</li>
+        <li>我是第4个孩子</li>
+        <li>我是第5个孩子</li>
+    </ul>
+
+    <ul class="table2">
+        <li>我是第1行</li>
+        <li>我是第2行</li>
+        <li>我是第3行</li>
+        <li>我是第4行</li>
+        <li>我是第5行</li>
+        <li>我是第6行</li>
+        <li>我是第7行</li>
+        <li>我是第8行</li>
+        <li>我是第9行</li>
+        <li>我是第10行</li>
+        <div>我是额外行</div>
+        <div>我是额外行</div>
+    </ul>
+
+    <ul class="table3">
+        <li>我又是第1行</li>
+        <li>我又是第2行</li>
+        <li>我又是第3行</li>
+        <li>我又是第4行</li>
+        <li>我又是第5行</li>
+        <li>我又是第6行</li>
+        <li>我又是第7行</li>
+        <li>我又是第8行</li>
+        <li>我又是第9行</li>
+        <li>我又是第10行</li>
+    </ul>
+
+    <ul class="table4">
+        <li>我还是第1行</li>
+        <li>我还是第2行</li>
+        <li>我还是第3行</li>
+        <li>我还是第4行</li>
+        <li>我还是第5行</li>
+        <li>我还是第6行</li>
+        <li>我还是第7行</li>
+        <li>我还是第8行</li>
+        <li>我还是第9行</li>
+        <li>我还是第10行</li>
+    </ul>
+
+    <ul class="table5">
+        <li>我就是第1行</li>
+        <li>我就是第2行</li>
+        <li>我就是第3行</li>
+        <li>我就是第4行</li>
+        <li>我就是第5行</li>
+        <li>我就是第6行</li>
+        <li>我就是第7行</li>
+        <li>我就是第8行</li>
+        <li>我就是第9行</li>
+        <li>我就是第10行</li>
+    </ul>
+
+</body>
+
+</html>

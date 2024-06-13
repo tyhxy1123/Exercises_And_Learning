@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloworld" class="com.javacode2018.lesson001.demo1.HelloWorld"/>
+
+    <bean id="createdByDefaultConstructor0" class="com.javacode2018.lesson001.demo1.UserModel"/>
+    <bean id="createdByDefaultConstructor1" class="com.javacode2018.lesson001.demo1.UserModel">
+        <constructor-arg index="0" value="From parameter constructor created"/>
+        <constructor-arg index="1" value="18"/>
+    </bean>
+
+    <bean id="createdByFactoryMethod0" class="com.javacode2018.lesson001.demo1.UserStaticFactoryKt"
+          factory-method="buildUser1"/>
+    <bean id="createdByFactoryMethod1" class="com.javacode2018.lesson001.demo1.UserStaticFactoryKt"
+          factory-method="buildUser2">
+        <constructor-arg index="0" value="builtByFactoryMethod2"/>
+        <constructor-arg index="1" value="18"/>
+    </bean>
+
+    <bean id="userFactory" class="com.javacode2018.lesson001.demo1.FactoryClass"/>
+    <bean id="fromFactoryBeanBuiltUserNoParam" class="com.javacode2018.lesson001.demo1.UserModelKt"
+          factory-bean="userFactory" factory-method="buildUser1"/>
+    <bean id="fromFactoryBeanBuiltUserWithParam" class="com.javacode2018.lesson001.demo1.UserModelKt"
+          factory-bean="userFactory" factory-method="buildUser1">
+        <constructor-arg index="0" value="I'm from factory bean built with param"/>
+        <constructor-arg index="1" value="30"/>
+    </bean>
+
+    <bean id="createByFactoryBean" class="com.javacode2018.lesson001.demo1.UserFactoryBean"/>
+
+    <bean id="UserService1" class="com.javacode2018.lesson001.demo1.UserService"/>
+
+    <bean id="DIByConstructorParamIndex" class="com.javacode2018.lesson001.demo1.UserModel">
+        <constructor-arg index="0" value="张三"/>
+        <constructor-arg index="1" value="188"/>
+    </bean>
+
+    <bean id="benz1" class="com.javacode2018.lesson001.demo1.CarModel">
+        <constructor-arg name="p1" value="Benz"/>
+        <constructor-arg name="p2" value="teuer"/>
+    </bean>
+
+    <bean id="menu1" class="com.javacode2018.lesson001.demo1.MenuModel">
+        <property name="label" value="spring系列"/>
+        <property name="theSort" value="10111011"/>
+    </bean>
+
+
+</beans>

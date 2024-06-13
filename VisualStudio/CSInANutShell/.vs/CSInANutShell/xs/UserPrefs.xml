@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{BC79E7FD-C41F-447E-9A2D-6279170BE50B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSInANutShell/DotNetTest.cs">
+    <Files>
+      <File FileName="CSInANutShell/UnitTest1.cs" Line="12" Column="1" />
+      <File FileName="CSInANutShell/DotNetTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSInANutShell" expanded="True">
+            <Node name="CSInANutShell" expanded="True">
+              <Node name="DotNetTest.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CSInANutShell" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CSInANutShell PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

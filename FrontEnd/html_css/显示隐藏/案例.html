@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .deck {
+            margin: 200px auto;
+            width: 233px;
+            height: 200px;
+        }
+
+        .pic {
+            position: relative;
+            width: 233px;
+            height: 155px;
+            background-color: pink;
+        }
+
+        .pic img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+        .mask {
+            position: absolute;
+            display: none;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4) url('images/arr.png') no-repeat center;
+        }
+
+        .pic:hover .mask {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="deck">
+        <div class="pic">
+            <div class="mask">
+            </div>
+            <img src="images/deck.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

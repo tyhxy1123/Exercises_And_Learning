@@ -1,0 +1,6 @@
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/obj/Debug/CSInANutShell.csproj.AssemblyReference.cache
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/obj/Debug/CSInANutShell.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/bin/Debug/CSInANutShell.exe
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/bin/Debug/CSInANutShell.pdb
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/obj/Debug/CSInANutShell.exe
+/Users/xiangyu/Projects/Rider/CSInANutShell/CSInANutShell/obj/Debug/CSInANutShell.pdb

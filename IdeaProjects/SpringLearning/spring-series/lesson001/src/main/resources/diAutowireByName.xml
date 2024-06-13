@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="service1" class="com.javacode2018.lesson001.demo1.DiAutowireByName$Service1">
+        <property name="desc" value="this is service 1"/>
+    </bean>
+
+    <bean id="service2" class="com.javacode2018.lesson001.demo1.DiAutowireByName.Service2">
+        <property name="desc" value="this is service 2"/>
+    </bean>
+
+    <bean id="service2-1" class="com.javacode2018.lesson001.demo1.DiAutowireByName.Service2">
+        <property name="desc" value="this is service 2-1"/>
+    </bean>
+
+    <bean id="diAutowireByName1" class="com.javacode2018.lesson001.demo1.DiAutowireByName" autowire="byName"/>
+    <bean id="diAutowireByName2" class="com.javacode2018.lesson001.demo1.DiAutowireByName" autowire="byName">
+        <property name="service2" ref="service2-1"/>
+    </bean>
+
+</beans>

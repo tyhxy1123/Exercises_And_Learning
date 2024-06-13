@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="baseService" class="com.javacode2018.lesson001.demo1.ExtendBean$ServiceA" abstract="true">
+        <property name="name" value="Name is predefined by baseService"/>
+        <property name="desc" value="desc is predefined by baseService"/>
+    </bean>
+    <bean name="s1" class="com.javacode2018.lesson001.demo1.ExtendBean$ServiceA" parent="baseService">
+        <property name="desc" value="desc for service A"/>
+    </bean>
+    <bean name="s2" class="com.javacode2018.lesson001.demo1.ExtendBean$ServiceB" parent="baseService"/>
+
+</beans>

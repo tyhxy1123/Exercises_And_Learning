@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.javacode2018.chat05.demo1.mapper.OrderMapper">
+    <select id="getById" resultType="com.javacode2018.chat05.demo1.model.OrderModel">
+        select id, user_id as userId, create_time as createTime, up_time as upTime from t_order where id=#{value}
+    </select>
+    <select id="getById1" resultType="com.javacode2018.chat05.demo1.model.OrderModel">
+        select * from t_order where id=#{id}
+    </select>
+
+    <resultMap id="orderModelMap2" type="com.javacode2018.chat05.demo1.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+    </resultMap>
+    <select id="getById2" resultMap="orderModelMap2">
+        select * from t_order where id=#{value}
+    </select>
+</mapper>

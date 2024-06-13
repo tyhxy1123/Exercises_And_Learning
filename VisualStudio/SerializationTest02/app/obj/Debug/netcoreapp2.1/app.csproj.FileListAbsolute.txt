@@ -1,0 +1,14 @@
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.AssemblyInfo.cs
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/app.deps.json
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/app.runtimeconfig.json
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/app.runtimeconfig.dev.json
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/app.dll
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/app.pdb
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/library.dll
+/Users/xiangyu/Projects/SolutionDemo/app/bin/Debug/netcoreapp2.1/library.pdb
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.csproj.CopyComplete
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.dll
+/Users/xiangyu/Projects/SolutionDemo/app/obj/Debug/netcoreapp2.1/app.pdb

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="com.javacode2018.lesson001.demo1.UserModel">
+        <constructor-arg name="name" value="张三"/>
+        <constructor-arg name="age" value="121"/>
+    </bean>
+
+    <!-- 通过构造器方式注入容器中的bean -->
+    <bean id="diBeanByConstructor" class="com.javacode2018.lesson001.demo1.PersonModel">
+        <constructor-arg name="userModel" ref="user"/>
+        <constructor-arg name="carModel">
+            <bean class="com.javacode2018.lesson001.demo1.CarModel">
+                <constructor-arg name="p1" value="Bentley"/>
+                <constructor-arg name="p2" value="Continental GT"/>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+    <bean id="diBeanBySetter" class="com.javacode2018.lesson001.demo1.PersonModel">
+        <property name="userModel" ref="user"/>
+        <property name="carModel">
+            <bean class="com.javacode2018.lesson001.demo1.CarModel">
+                <constructor-arg name="p1" value="Rolls Royce"/>
+                <constructor-arg name="p2" value="Best"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="diOtherTypeConstructor" class="com.javacode2018.lesson001.demo1.DiOtherTypeModel">
+        <constructor-arg name="array1">
+            <array>
+                <value>1010</value>
+            </array>
+        </constructor-arg>
+        <constructor-arg name="list1">
+            <list>
+                <value>
+                    Terrain
+                </value>
+                <value>
+                    Zerg
+                </value>
+                <value>
+                    Protoss
+                </value>
+            </list>
+        </constructor-arg>
+        <constructor-arg name="map1">
+            <map>
+                <entry key="a" value="1"/>
+                <entry key="b" value="2"/>
+            </map>
+        </constructor-arg>
+        <constructor-arg name="set1">
+            <set>
+                <value>Go</value>
+                <value>go</value>
+                <value>geh</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg name="properties1">
+            <props>
+                <prop key="firstProp">1st</prop>
+                <prop key="secondProp">2nd</prop>
+                <prop key="thirdProp">3rd</prop>
+            </props>
+        </constructor-arg>
+    </bean>
+
+    <bean id="diOtherTypeSetter" class="com.javacode2018.lesson001.demo1.DiOtherTypeModel">
+        <property name="properties1">
+            <props>
+                <prop key="key1">value1</prop>
+                <prop key="key2">value2</prop>
+                <prop key="key3">value3</prop>
+            </props>
+        </property>
+        <property name="array1">
+            <array>
+                <value>10001010</value>
+                <value>10101111</value>
+            </array>
+        </property>
+    </bean>
+</beans>

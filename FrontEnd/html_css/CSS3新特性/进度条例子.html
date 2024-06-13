@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>进度条</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .bar {
+            width: 150px;
+            height: 15px;
+            border: red 1px solid;
+            border-radius: calc(15px / 2);
+            padding: 1px;
+        }
+
+        .inbar {
+            width: 50%;
+            height: 100%;
+            border-radius: calc(15px /2);
+            background-color: red;
+            transition: all 500ms;
+        }
+
+        .bar:hover .inbar {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <div class="inbar"></div>
+    </div>
+</body>
+
+</html>

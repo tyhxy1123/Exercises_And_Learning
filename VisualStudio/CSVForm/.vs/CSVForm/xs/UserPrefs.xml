@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C5867654-9EAD-4394-812F-B21FF495CC87}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSVForm/Program.cs">
+    <Files>
+      <File FileName="CSVForm/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CSVForm PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>

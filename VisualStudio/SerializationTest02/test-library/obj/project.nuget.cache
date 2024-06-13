@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "dgSpecHash": "59+ien6LDo3bzpO66h/R3KJtGriKno6ab0bIl9XJFDtZRv9loefXlj8aV3q0msAFLPwBSGSrbXen7I3XfDQ9Ug==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\test-library\\test-library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tyhxy\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
+    "C:\\Users\\tyhxy\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
+    "C:\\Users\\tyhxy\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
+    "C:\\Users\\tyhxy\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
+    "C:\\Users\\tyhxy\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "test-library depends on Microsoft.NET.Test.Sdk (>= 15.8.0) but Microsoft.NET.Test.Sdk 15.8.0 was not found. An approximate best match of Microsoft.NET.Test.Sdk 16.11.0 was resolved.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit.runner.visualstudio. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App with version (>= 2.1.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.0.0 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 11.0.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package NuGet.Frameworks with version (>= 5.0.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 4.6.4 ]",
+      "libraryId": "NuGet.Frameworks",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

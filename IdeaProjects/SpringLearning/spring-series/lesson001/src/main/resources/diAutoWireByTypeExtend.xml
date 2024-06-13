@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="service1" class="com.javacode2018.lesson001.demo1.DiAutowireByType.Service1">
+        <property name="desc" value="this is a service 1 in DiAutowireByType"/>
+    </bean>
+
+    <bean id="service2" class="com.javacode2018.lesson001.demo1.DiByAutowireTypeExtend.Service2">
+        <property name="desc" value="this is a service 2 in DiAutowireByType"/>
+    </bean>
+
+    <bean id="service1-1" class="com.javacode2018.lesson001.demo1.DiByAutowireTypeExtend.Service1">
+        <property name="desc" value="service 1-1"/>
+    </bean>
+
+    <bean id="service1-3" class="com.javacode2018.lesson001.demo1.DiByAutowireTypeExtend.Service2">
+        <property name="desc" value="service 1-3"/>
+    </bean>
+
+    <bean id="service2-1" class="com.javacode2018.lesson001.demo1.DiByAutowireTypeExtend.Service2">
+        <property name="desc" value="service 2-1"/>
+    </bean>
+
+    <bean id="diByAutowireTypeExtend" class="com.javacode2018.lesson001.demo1.DiByAutowireTypeExtend"
+          autowire="byType"/>
+
+
+</beans>

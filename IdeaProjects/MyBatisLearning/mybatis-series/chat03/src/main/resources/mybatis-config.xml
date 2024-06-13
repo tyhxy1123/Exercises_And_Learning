@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <properties resource="demo01/config.properties">
+<!--        <property name="jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--        <property name="jdbc.url" value="jdbc:mysql://localhost:3306/javacode2018?characterEncoding=UTF-8"/>-->
+<!--        <property name="jdbc.username" value="root"/>-->
+
+    </properties>
+    <typeAliases>
+<!--        <typeAlias type="com.javacode2018.chat03.demo01.UserModel" alias="user"/>-->
+<!--        <typeAlias type="com.javacode2018.chat03.demo01.Order" alias="order"/>-->
+        <package name="com.javacode2018.chat03.demo01"/>
+    </typeAliases>
+    <environments default="chat04-demo01">
+        <environment id="chat04-demo01">
+<!--            <transactionManager type="org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory"/>-->
+            <transactionManager type="JDBC"/>
+<!--            <dataSource type="org.apache.ibatis.datasource.pooled.PooledDataSourceFactory">-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="demo01/mapper/UserMapper.xml"/>
+    </mappers>
+</configuration>

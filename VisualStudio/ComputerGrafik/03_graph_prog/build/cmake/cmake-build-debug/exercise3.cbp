@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="exercise3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3">
+				<Option output="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/../../include"/>
+					<Add directory="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/../../dependencies/qdbmp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3/fast">
+				<Option output="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/../../include"/>
+					<Add directory="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/../../dependencies/qdbmp/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/dependencies/qdbmp/include/qdbmp.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/dependencies/qdbmp/src/qdbmp.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/abstract_scene.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/application.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/cube_system.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/cube_system_split.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/example_3d_primitives.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/example_cons_primitives.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/example_primitives.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/example_trans_order.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/recursive_cubes.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/terrain.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/include/tiny_vec.h">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/abstract_scene.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/application.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/cube_system.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/cube_system_split.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/example_3d_primitives.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/example_cons_primitives.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/example_primitives.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/example_trans_order.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/main.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/recursive_cubes.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/src/terrain.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="/Users/xiangyu/Projects/ECG/03_graph_prog/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

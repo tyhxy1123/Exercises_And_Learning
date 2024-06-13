@@ -1,0 +1,14 @@
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/IKT
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/IKT.deps.json
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/IKT.runtimeconfig.json
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/IKT.dll
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/ref/IKT.dll
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/bin/Debug/net6.0/IKT.pdb
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.AssemblyInfo.cs
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.dll
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/ref/IKT.dll
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.pdb
+/Users/xiangyu/Projects/VisualStudio/IKT/IKT/obj/Debug/net6.0/IKT.genruntimeconfig.cache

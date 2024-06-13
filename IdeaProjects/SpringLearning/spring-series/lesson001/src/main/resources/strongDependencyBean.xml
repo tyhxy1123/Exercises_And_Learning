@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="bean3" class="com.javacode2018.lesson001.demo1.StrongDependenceBean$Bean3">
+        <constructor-arg name="bean2" ref="bean2"/>
+    </bean>
+    <bean name="bean2" class="com.javacode2018.lesson001.demo1.StrongDependenceBean$Bean2">
+        <constructor-arg name="bean1" ref="bean1"/>
+    </bean>
+    <bean name="bean1" class="com.javacode2018.lesson001.demo1.StrongDependenceBean$Bean1"/>
+
+</beans>

@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{6E775F68-DB5D-4114-AF49-643572DA3147}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="29" Column="34" />
+      <File FileName="Demos/UnsafeDemo.cs" Line="18" Column="9" />
+      <File FileName="Demos/StackAllocDemo.cs" Line="21" Column="41" />
+      <File FileName="Demos/FunctionPointer.cs" Line="14" Column="62" />
+      <File FileName="Demos/RefInOut.cs" Line="27" Column="18" />
+      <File FileName="Demos/SkipLocalsInit.cs" Line="36" Column="33" />
+      <File FileName="CSharpInANutshell.csproj" Line="7" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSharpInANutshell" expanded="True">
+            <Node name="CSharpInANutshell" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Demos" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CSharpInANutshell PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

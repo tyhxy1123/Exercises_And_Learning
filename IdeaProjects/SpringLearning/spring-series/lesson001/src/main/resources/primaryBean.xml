@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="service3" class="com.javacode2018.lesson001.demo1.PrimaryBean$Service3" autowire-candidate="false"/>
+    <bean name="service1" class="com.javacode2018.lesson001.demo1.PrimaryBean$Service1" primary="true"/>
+    <bean name="service2" class="com.javacode2018.lesson001.demo1.PrimaryBean$Service2"/>
+    <bean name="primaryBean" class="com.javacode2018.lesson001.demo1.PrimaryBean" autowire="byType" primary="true"/>
+    <bean name="primaryBean2" class="com.javacode2018.lesson001.demo1.PrimaryBean" autowire="byType"/>
+</beans>

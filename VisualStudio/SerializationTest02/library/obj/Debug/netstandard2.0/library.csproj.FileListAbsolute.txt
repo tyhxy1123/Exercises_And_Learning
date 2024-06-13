@@ -1,0 +1,9 @@
+/Users/xiangyu/Projects/SolutionDemo/library/bin/Debug/netstandard2.0/library.deps.json
+/Users/xiangyu/Projects/SolutionDemo/library/bin/Debug/netstandard2.0/library.dll
+/Users/xiangyu/Projects/SolutionDemo/library/bin/Debug/netstandard2.0/library.pdb
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.AssemblyInfo.cs
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.dll
+/Users/xiangyu/Projects/SolutionDemo/library/obj/Debug/netstandard2.0/library.pdb

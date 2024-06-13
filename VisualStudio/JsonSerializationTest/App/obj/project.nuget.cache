@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "X499qGL+DE1s+KLzCNEDpkaXS6Tl1Rq0WaLEwGtltehhVCGgYZnMT6Pmhf6LkcTT862OZTBW8wpSCUHksnqcbg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\App\\App.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App with version (>= 2.1.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.0.0 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 11.0.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

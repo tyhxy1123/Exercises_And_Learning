@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{9B66C434-A0E8-436E-A361-99F3824B77E3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IKT/Kapitel1_2/A.cs">
+    <Files>
+      <File FileName="IKT/Program.cs" Line="4" Column="18" />
+      <File FileName="IKT/Kapitel1_1/A8.cs" Line="29" Column="25" />
+      <File FileName="IKT/Kapitel1_2/A.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IKT" expanded="True">
+            <Node name="IKT" expanded="True">
+              <Node name="Kapitel1_1" expanded="True" />
+              <Node name="Kapitel1_2" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.IKT PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

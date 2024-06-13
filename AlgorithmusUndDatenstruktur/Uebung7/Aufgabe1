@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node *tree;
+typedef struct node
+{
+    int key;
+    tree left, right;
+} node;
+
+
+int f(list 1){
+    if(!1)
+        return 1;
+
+    while(l->next){
+        if(!(l->value == 1->next->value || l->value == l->next->value + 1 || l->value + 1 == l->next->value))
+            return 0;
+        l = l->next;
+    }
+
+    return 1;
+}
+
+void defol(tree* t){
+    if(!t || !(*t))
+        return;
+
+    if((*t)->left == NULL && (*t)->right == NULL){
+        free(*t);
+    }
+
+
+}

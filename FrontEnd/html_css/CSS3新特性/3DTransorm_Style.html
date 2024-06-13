@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            perspective: 400px;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            transition: all 2s;
+        }
+        
+        .box1 {
+            position: absolute;
+            transform: rotate3d(1, 0, 0, 60deg);
+            background-color: pink;
+        }
+        
+        .box2 {
+            position: relative;
+            margin: 100px auto;
+            background-color: skyblue;
+            transform-style: preserve-3d;
+        }
+        
+        .box2:hover {
+            transform: rotate3d(0, 1, 0, 60deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box2">
+        <div class="box box1"></div>
+    </div>
+
+</body>
+
+</html>

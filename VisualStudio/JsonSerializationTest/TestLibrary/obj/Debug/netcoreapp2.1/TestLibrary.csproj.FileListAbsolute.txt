@@ -1,0 +1,17 @@
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/TestLibrary.deps.json
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/TestLibrary.runtimeconfig.json
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/TestLibrary.runtimeconfig.dev.json
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/TestLibrary.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/TestLibrary.pdb
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/Library.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/bin/Debug/netcoreapp2.1/Library.pdb
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.AssemblyInfo.cs
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.csproj.CopyComplete
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.dll
+/Users/xiangyu/Projects/Golden/TestLibrary/obj/Debug/netcoreapp2.1/TestLibrary.pdb

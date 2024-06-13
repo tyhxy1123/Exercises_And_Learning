@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="serviceA" class="com.javacode2018.lesson001.demo1.application.context.aware.ServiceA" scope="prototype"/>
+    <bean class="com.javacode2018.lesson001.demo1.application.context.aware.ServiceB" autowire="byType"/>
+    <bean class="com.javacode2018.lesson001.demo1.application.context.aware.ServiceC">
+        <lookup-method name="getServiceA" bean="serviceA"/>
+    </bean>
+</beans>

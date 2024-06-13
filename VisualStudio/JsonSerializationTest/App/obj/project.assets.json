@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../Library/Library.csproj",
+      "msbuildProject": "../Library/Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "Library >= 1.0.0",
+      "Microsoft.NETCore.App >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tyhxy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\App\\App.csproj",
+      "projectName": "App",
+      "projectPath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\tyhxy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tyhxy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "projectReferences": {
+            "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\Library\\Library.csproj": {
+              "projectPath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\Library\\Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App with version (>= 2.1.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.0.0 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 11.0.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

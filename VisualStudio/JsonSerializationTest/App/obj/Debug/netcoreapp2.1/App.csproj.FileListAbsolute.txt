@@ -1,0 +1,13 @@
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/App.deps.json
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.json
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.dev.json
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/App.dll
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/App.pdb
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/Library.dll
+/Users/xiangyu/Projects/Golden/App/bin/Debug/netcoreapp2.1/Library.pdb
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.AssemblyInfo.cs
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.csproj.CopyComplete
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.dll
+/Users/xiangyu/Projects/Golden/App/obj/Debug/netcoreapp2.1/App.pdb

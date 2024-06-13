@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="bean1" class="com.javacode2018.lesson001.demo1.DependOnBean$Bean1" depends-on="bean2,bean3; bean4"/>
+    <bean name="bean2" class="com.javacode2018.lesson001.demo1.DependOnBean$Bean2"/>
+    <bean name="bean3" class="com.javacode2018.lesson001.demo1.DependOnBean$Bean3"/>
+    <bean name="bean4" class="com.javacode2018.lesson001.demo1.DependOnBean$Bean4"/>
+</beans>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Time Control</title>
+    <style>
+        @keyframes move {
+            0% {}
+            100% {
+                width: 200px;
+            }
+        }
+        
+        div {
+            width: 0;
+            font-size: 20px;
+            height: 30px;
+            /* 强制文字在一行显示 */
+            white-space: nowrap;
+            overflow: hidden;
+            background-color: pink;
+            animation: move forwards steps(10) 10s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>世纪佳缘我在这里等你</div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/bin/Release/netstandard2.0/StringLibrary.deps.json
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/bin/Release/netstandard2.0/StringLibrary.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/bin/Release/netstandard2.0/StringLibrary.pdb
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/obj/Release/netstandard2.0/StringLibrary.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/obj/Release/netstandard2.0/StringLibrary.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/obj/Release/netstandard2.0/StringLibrary.AssemblyInfo.cs
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/obj/Release/netstandard2.0/StringLibrary.dll
+/Users/xiangyu/Projects/ClassLibraryProjects/StringLibrary/obj/Release/netstandard2.0/StringLibrary.pdb

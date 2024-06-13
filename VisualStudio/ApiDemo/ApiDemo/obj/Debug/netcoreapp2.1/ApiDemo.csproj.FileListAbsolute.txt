@@ -1,0 +1,14 @@
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/bin/Debug/netcoreapp2.1/ApiDemo.deps.json
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/bin/Debug/netcoreapp2.1/ApiDemo.runtimeconfig.json
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/bin/Debug/netcoreapp2.1/ApiDemo.runtimeconfig.dev.json
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/bin/Debug/netcoreapp2.1/ApiDemo.dll
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/bin/Debug/netcoreapp2.1/ApiDemo.pdb
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.RazorAssemblyInfo.cache
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.RazorAssemblyInfo.cs
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.AssemblyInfo.cs
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.RazorTargetAssemblyInfo.cache
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.dll
+/Users/xiangyu/Projects/ApiDemo/ApiDemo/obj/Debug/netcoreapp2.1/ApiDemo.pdb

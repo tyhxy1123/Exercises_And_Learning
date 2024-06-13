@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圆角边框</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0 auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .roundCornor {
+            width: 300px;
+            height: 150px;
+            background-color: pink;
+            border-radius: 10px;
+        }
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border-radius: 50%;
+        }
+
+        .roundRec {
+            width: 200px;
+            height: 100px;
+            /* radius是height的一半 */
+            border-radius: 50px;
+            background-color: orangered;
+            text-align: center;
+        }
+
+        h5 {
+            margin-top: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        .roundRec span {
+            color: #eee;
+            line-height: 100px;
+            font-size: 40px;
+        }
+
+        .dRound {
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+            border-radius: 10px 20px 40px 80px;
+        }
+
+        .sRound {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px 40px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h5>圆角矩形画法:</h5>
+    <div class="roundCornor">
+
+    </div>
+    <h5>圆画法:</h5>
+    <div class="circle">
+
+    </div>
+    <h5>圆矩形画法:</h5>
+    <div class="roundRec">
+        <span>新人福利</span>
+    </div>
+    <h5>可以设置不同的圆角:</h5>
+    <div class="dRound">
+    </div>
+    <h5>建议设置对称圆角:</h5>
+    <div class="sRound">
+
+    </div>
+</body>
+
+</html>

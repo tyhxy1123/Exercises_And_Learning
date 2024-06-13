@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8E6739B-F63B-4AB1-AC23-2389F7BBAE8F}|library\\library.csproj|c:\\users\\tyhxy\\documents\\tmp_workplace\\projectsbackup\\projects\\solutiondemo\\library\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8E6739B-F63B-4AB1-AC23-2389F7BBAE8F}|library\\library.csproj|solutionrelative:library\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9130D01-CA26-4C2B-B30C-9A2DB91BD1E3}|app\\app.csproj|c:\\users\\tyhxy\\documents\\tmp_workplace\\projectsbackup\\projects\\solutiondemo\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9130D01-CA26-4C2B-B30C-9A2DB91BD1E3}|app\\app.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Thing.cs",
+              "DocumentMoniker": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\library\\Thing.cs",
+              "RelativeDocumentMoniker": "library\\Thing.cs",
+              "ToolTip": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\library\\Thing.cs",
+              "RelativeToolTip": "library\\Thing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:52:31.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\app\\Program.cs",
+              "RelativeDocumentMoniker": "app\\Program.cs",
+              "ToolTip": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\SolutionDemo\\app\\Program.cs",
+              "RelativeToolTip": "app\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:52:28.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

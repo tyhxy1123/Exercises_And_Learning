@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--<mapper namespace="com.javacode2018.chat05.demo2.mapper.OrderMapper">-->
+<!--    <resultMap id="orderModelMap1" type="com.javacode2018.chat05.demo2.mapper.OrderModel">-->
+<!--        <id column="id" property="id"/>-->
+<!--        <result column="user_id" property="userId"/>-->
+<!--        <result column="create_time" property="createTime"/>-->
+<!--        <result column="up_time" property="upTime"/>-->
+<!--        <result column="user_id" property="userModel.id"/>-->
+<!--        <result column="name" property="userModel.name"/>-->
+<!--    </resultMap>-->
+<!--    <select id="getById1" resultMap="orderModelMap1">-->
+<!--        select a.id, a.user_id, a.create_time, a.up_time, b.name-->
+<!--        from t_order a, t_user b-->
+<!--        where a.user_id = b.id-->
+<!--        and a.id=#{value}-->
+<!--    </select>-->
+<!--</mapper>-->
+
+<mapper namespace="com.javacode2018.chat05.demo2.mapper.OrderMapper">
+    <resultMap id="orderModelMap1" type="com.javacode2018.chat05.demo2.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+        <result column="user_id" property="userModel.id"/>
+        <result column="name" property="userModel.name"/>
+    </resultMap>
+    <select id="getById1" resultMap="orderModelMap1">
+        select * from t_order a, t_user b
+        where a.user_id = b.id
+        and a.id=#{value}
+    </select>
+
+    <resultMap id="orderModelMap2" type="com.javacode2018.chat05.demo2.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+        <association property="userModel">
+            <id column="user_id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+    </resultMap>
+    <select id="getById2" resultMap="orderModelMap2">
+        select a.id, a.user_id, a.create_time, a.up_time, b.id, b.name
+        from t_order a, t_user b
+        where a.id = #{value}
+        and a.user_id = b.id
+    </select>
+
+    <resultMap id="orderModelMap3" type="com.javacode2018.chat05.demo2.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+        <association property="userModel" select="com.javacode2018.chat05.demo2.mapper.UserMapper.getById" column="user_id"/>
+    </resultMap>
+    <select id="getById3" resultMap="orderModelMap3">
+        select * from t_order where id=#{value}
+    </select>
+
+    <resultMap id="orderModelMap4" type="com.javacode2018.chat05.demo2.model.OrderModel">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="up_time" property="upTime"/>
+        <association property="userModel" select="com.javacode2018.chat05.demo2.mapper.UserMapper.getById1" column="{uid1=user_id,uid2=create_time}"/>
+    </resultMap>
+    <select id="getById4" resultMap="orderModelMap4">
+        select * from t_order where id=#{id}
+    </select>
+</mapper>

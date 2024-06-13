@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见布局</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .top {
+            height: 50px;
+            background-color: grey;
+        }
+
+        .banner {
+            width: 980px;
+            height: 150px;
+            margin: 10px auto;
+            background-color: gray;
+        }
+
+        .box {
+            width: 980px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: pink;
+        }
+
+        .box li {
+            width: 237px;
+            height: 300px;
+            float: left;
+            margin-right: 10px;
+            background-color: gray;
+        }
+
+        .box .last {
+            margin-right: 0;
+        }
+
+        .footer {
+            /* 只要通栏盒子，宽度和浏览器一样宽，不用设置width */
+            height: 200px;
+            margin-top: 10px;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="box">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="last">4</li>
+        </ul>
+    </div>
+    <div class="footer">footer</div>
+</body>
+
+</html>

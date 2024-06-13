@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiangyu/Projects/ECG/ecg_tree/src/main.cpp
+iostream
+-
+node.h
+/Users/xiangyu/Projects/ECG/ecg_tree/src/node.h
+
+/Users/xiangyu/Projects/ECG/ecg_tree/src/node.h
+string
+-
+iostream
+-
+vector
+-
+

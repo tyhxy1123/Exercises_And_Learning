@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "eHvjRk9WjhgkfJqIXMsb4/WPHZxgdy19R/w4eAIxcYXEHKYnWlF2pzq5PrI1kVcCXklAsffDAetqtjMwqf4TlA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\tyhxy\\Documents\\tmp_workplace\\ProjectsBackup\\Projects\\JsonSerializationTest\\Library\\Library.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package NETStandard.Library with version (>= 2.0.3)\r\n  - Found 3 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.0.0 ]",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 11.0.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

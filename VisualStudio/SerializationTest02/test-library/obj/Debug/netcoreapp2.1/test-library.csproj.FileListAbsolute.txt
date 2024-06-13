@@ -1,0 +1,17 @@
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.AssemblyInfo.cs
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/test-library.deps.json
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/test-library.runtimeconfig.json
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/test-library.runtimeconfig.dev.json
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/test-library.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/test-library.pdb
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/library.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/bin/Debug/netcoreapp2.1/library.pdb
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.csproj.CopyComplete
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.dll
+/Users/xiangyu/Projects/SolutionDemo/test-library/obj/Debug/netcoreapp2.1/test-library.pdb

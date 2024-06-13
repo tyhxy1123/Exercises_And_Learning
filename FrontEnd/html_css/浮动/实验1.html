@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiment1</title>
+    <style>
+        .header,
+        .footer {
+            background-color: grey;
+            color: white;
+            padding: 15px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .main {
+            margin: 0 auto;
+            width: 1000px;
+            height: 700px;
+        }
+
+        .menu {
+            float: left;
+            width: 25%;
+            height: 100%;
+            background-color: steelblue;
+        }
+
+        .content {
+            float: left;
+            width: 75%;
+            height: 100%;
+            background-color: pink;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main clearfix">
+        <div class="menu">
+            <div>slkdfj</div>
+            <div>dfkljk</div>
+        </div>
+        <div class="content">
+            <p>sdklfjsdklfjkdfkdj dfsjkldfj sdfjlkdsjf.</p>
+            <p>sdkfjdklsfjdlsf ,dfjsdlfkj .sdfkljds.</p>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>

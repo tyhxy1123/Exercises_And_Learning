@@ -1,0 +1,11 @@
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.csprojAssemblyReference.cache
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.AssemblyInfoInputs.cache
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.AssemblyInfo.cs
+/Users/xiangyu/Projects/MyApp/bin/Debug/netcoreapp2.1/MyApp.deps.json
+/Users/xiangyu/Projects/MyApp/bin/Debug/netcoreapp2.1/MyApp.runtimeconfig.json
+/Users/xiangyu/Projects/MyApp/bin/Debug/netcoreapp2.1/MyApp.runtimeconfig.dev.json
+/Users/xiangyu/Projects/MyApp/bin/Debug/netcoreapp2.1/MyApp.dll
+/Users/xiangyu/Projects/MyApp/bin/Debug/netcoreapp2.1/MyApp.pdb
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.dll
+/Users/xiangyu/Projects/MyApp/obj/Debug/netcoreapp2.1/MyApp.pdb

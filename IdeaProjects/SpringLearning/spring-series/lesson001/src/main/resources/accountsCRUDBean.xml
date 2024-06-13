@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="accountService" class="com.javacode2020.lesson000.account_annoioc.service.impl.AccountServiceImpl_OLD" autowire="byType"/>
+
+    <bean id="accountDao" class="com.javacode2020.lesson000.account_annoioc.dao.impl.AccountDaoImpl" autowire="byType"/>
+
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner"/>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/rookie?useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="user" value="root"/>
+    </bean>
+    <bean id = "connectionUtils" class="com.javacode2020.lesson000.account_annoioc.utils.ConnectionUtils" autowire="byType"/>
+
+    <bean id = "transactionManager" class="com.javacode2020.lesson000.account_annoioc.utils.TransactionManager" autowire="byType"/>
+    <bean id="beanFactory" class="com.javacode2020.lesson000.account_annoioc.factory.BeanFactory">
+        <constructor-arg name="txManager" ref="transactionManager"/>
+    </bean>
+    <bean id="accountServiceProxy" factory-bean="beanFactory" factory-method="getAccountService"/>
+</beans>

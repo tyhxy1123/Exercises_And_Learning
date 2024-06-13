@@ -1,0 +1,6 @@
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/bin/Debug/A4Converter.exe
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/bin/Debug/A4Converter.pdb
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/obj/Debug/A4Converter.csproj.AssemblyReference.cache
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/obj/Debug/A4Converter.csproj.CoreCompileInputs.cache
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/obj/Debug/A4Converter.exe
+/Users/xiangyu/Projects/Rider/A4Converter/A4Converter/obj/Debug/A4Converter.pdb

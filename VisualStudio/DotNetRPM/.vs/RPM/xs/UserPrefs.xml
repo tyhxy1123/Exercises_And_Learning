@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{DFDEE104-BED6-483E-A554-281E7922F20A}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RPM" expanded="True">
+            <Node name="RPM" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Movies" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="RPM" expanded="True" selected="True">
+            <Node name="RPM" expanded="True">
+              <Node name="RPM" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Pages" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RPM PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate3D</title>
+    <style>
+        body {
+            perspective: 300px;
+        }
+        
+        @keyframes rotateNachY {
+            0% {}
+            50% {
+                transform: rotate3d(0, 1, 0, 180deg);
+            }
+            100% {
+                transform: rotate3d(0, 0, 1, 180deg);
+            }
+        }
+        
+        .box {
+            height: 200px;
+            width: 200px;
+            margin: 100px auto;
+            background-color: pink;
+            /* animation: rotateNachY 3s; */
+            transition: all 1s;
+        }
+        
+        .box:hover {
+            transform: rotate3d(0, 0, 1, 90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a box</div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basic</title>
+    <style>
+        input {
+            display: block;
+            outline: none;
+            border-style: solid;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        .ad {
+            position: relative;
+            height: 215px;
+            background-color: pink;
+        }
+
+        .ad button {
+            position: absolute;
+            border-style: none;
+            top: 5px;
+            right: 5px;
+            width: 15px;
+            height: 15px;
+            background-color: #666;
+        }
+
+        .menu {
+            width: 100px;
+        }
+
+        .menu dt,
+        dd {
+            padding: 0;
+            margin: 0;
+            width: 100px;
+            height: 50px;
+            background-color: skyblue;
+            line-height: 50px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .reveal {
+            display: block;
+        }
+
+        .light {
+            width: 100px;
+        }
+
+        .light button {
+            width: 100px;
+            height: 100px;
+            border-style: none;
+            background-color: purple;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="input" type="text" value='请输入内容'>
+
+    <div class='ad'><button class="btn"></button></div>
+
+    <div class="menu">
+        <dl>
+            <dt>下拉菜单</dt>
+            <dd>选项1</dd>
+            <dd>选项2</dd>
+            <dd>选项3</dd>
+        </dl>
+    </div>
+
+    <div class="light"><button>关灯</button></div>
+
+    <script>
+        var input = document.querySelector('.input');
+        input.style.color = '#999';
+        // input.value = '请输入内容';
+        input.onfocus = function () {
+            input.value = '';
+            input.style.borderColor = 'pink';
+        }
+        input.onblur = function () {
+            input.value = '请输入内容';
+            input.style.borderColor = 'initial';
+        }
+        var btn = document.querySelector('.ad button');
+        btn.onclick = function () {
+            document.querySelector('.ad').style.display = 'none';
+        }
+        var dds = document.querySelectorAll('.menu dd');
+        window.onload = () => {
+            dds.forEach(dd => {
+                dd.className = 'hidden';
+            });
+        }
+        document.querySelector('.menu').onmouseover = () => {
+            dds.forEach(dd => {
+                dd.className = 'reveal';
+            });
+        }
+        document.querySelector('.menu').onmouseout = () => {
+            dds.forEach(dd => {
+                dd.className = 'hidden';
+            });
+        }
+        var lightBtn = document.querySelector('.light button');
+        var flag = 0;
+        const body = document.body;
+        lightBtn.onclick = function () {
+            if (flag === 0) {
+                body.style.backgroundColor = '#000';
+                flag = 1;
+                this.innerHTML = '开灯';
+            }
+            else {
+                body.style.backgroundColor = '#fff';
+                flag = 0;
+                this.innerHTML = '关灯';
+            }
+        }
+    </script>
+</body>
+
+</html>

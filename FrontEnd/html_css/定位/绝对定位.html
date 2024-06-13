@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位</title>
+    <style>
+        .grandparent {
+            position: relative;
+            top: 50px;
+            left: 100px;
+            background-color: skyblue;
+            height: 400px;
+            width: 400px;
+        }
+
+        .parent {
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+
+        }
+
+        .child {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 相对定位的位置还是原来的位置占位 -->
+    <!-- 定位为以最近的上级有定位的元素为参考点 -->
+    <!-- 绝对定位脱离原先标准流位置，会"脱标" -->
+    <div class="grandparent">
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

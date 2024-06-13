@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed positioning</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        .ad {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        .ad2 {
+            position: fixed;
+            margin-left: 400px;
+            left: 50%;
+            bottom: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+        }
+
+        .w {
+            width: 800px;
+            height: 100%;
+            margin: 0 auto;
+            background-color: skyblue;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- fixed 定位以浏览器可视窗口为定位参考 -->
+    <div class="ad">
+
+    </div>
+
+    <!-- 如何固定定位贴到版心右侧(或左侧）-->
+    <div class="ad2"></div>
+    <div class="w">
+
+    </div>
+</body>
+
+</html>

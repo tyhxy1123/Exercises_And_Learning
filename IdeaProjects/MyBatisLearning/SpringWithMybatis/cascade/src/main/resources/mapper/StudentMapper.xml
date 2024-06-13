@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.StudentMapper">
+    <resultMap id="studentMap" type="model.StudentModel">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="gender" column="gender" jdbcType="INTEGER" javaType="enums.GenderEnum" typeHandler="typeHandler.GenderTypeHandler"/>
+        <result property="cardId" column="card_id"/>
+        <result property="note" column="note"/>
+        <association property="studentSelfcard" column="id" select="mapper.StudentSelfcardMapper.findStudentSelfcardByStudentId"/>
+        <collection property="studentLectureList" column="id" select="mapper.StudentLectureMapper.findStudentLectureByStuId"/>
+        <discriminator javaType="int" column="gender">
+            <case value="1" resultMap="maleStudentMap"/>
+            <case value="2" resultMap="femaleStudentMap"/>
+        </discriminator>
+    </resultMap>
+    <select id="getStudent" parameterType="int" resultMap="studentMap">
+        select id, name, gender, card_id, note from t_student where id=#{id}
+    </select>
+    <resultMap id="maleStudentMap" type="model.MaleStudentModel" extends="studentMap">
+        <collection property="maleStudentHealthList" column="id" select="mapper.MaleStudentHealthMapper.findMaleStudentHealthById"/>
+    </resultMap>
+    <resultMap id="femaleStudentMap" type="model.FemaleStudentModel" extends="studentMap">
+        <collection property="femaleStudentHealthList" column="id" select="mapper.FemaleStudentHealthMapper.findFemaleStudentHealthById"/>
+    </resultMap>
+
+</mapper>

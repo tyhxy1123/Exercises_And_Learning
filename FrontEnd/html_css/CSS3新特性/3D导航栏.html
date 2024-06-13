@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            perspective: 500px;
+        }
+        
+        ul {
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+        
+        ul li {
+            width: 200px;
+            height: 100px;
+            float: left;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: all .4s;
+        }
+        
+        ul li:hover {
+            transform: rotate3d(1, 0, 0, 90deg);
+        }
+        
+        .front,
+        .bottom {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .front {
+            background-color: pink;
+            /* z-index: 1; */
+            transform: translate3d(0, 0, 50px);
+        }
+        
+        .bottom {
+            background-color: skyblue;
+            transform: translate3d(0, 50%, 0) rotate3d(-1, 0, 0, 90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <div class="front"></div>
+            <div class="bottom"></div>
+        </li>
+    </ul>
+</body>
+
+</html>

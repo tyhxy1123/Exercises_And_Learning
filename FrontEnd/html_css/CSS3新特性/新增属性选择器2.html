@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>of-type选择器</title>
+    <style>
+        * {
+            list-style: none;
+        }
+
+        .table0 li:nth-child(2n) {
+            background-color: #ccc;
+        }
+
+        .table1 li:nth-of-type(n) {
+            background-color: #ccc;
+        }
+
+        .table1 div:nth-of-type(1) {
+            background-color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="table0">
+        <li>列表元素1</li>
+        <li>列表元素2</li>
+        <li>列表元素3</li>
+        <li>列表元素4</li>
+        <li>列表元素5</li>
+        <div>无关内容</div>
+        <li>列表元素6</li>
+        <li>列表元素7</li>
+        <li>列表元素8</li>
+        <li>列表元素9</li>
+        <li>列表元素10</li>
+    </ul>
+    <ul class="table1">
+        <li>列表元素1</li>
+        <li>列表元素2</li>
+        <div>gogo</div>
+        <li>列表元素3</li>
+        <li>列表元素4</li>
+        <li>列表元素5</li>
+        <li>列表元素6</li>
+        <div>无关内容</div>
+        <li>列表元素7</li>
+        <li>列表元素8</li>
+        <span>无关内容</span>
+        <li>列表元素9</li>
+        <li>列表元素10</li>
+    </ul>
+</body>
+
+</html>

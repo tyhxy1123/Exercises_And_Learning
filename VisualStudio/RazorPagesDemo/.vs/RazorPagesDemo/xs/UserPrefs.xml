@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{83BD9C44-DF09-4621-8649-5E72455E6D55}|Default">
+  <MonoDevelop.Ide.ItemProperties.RazorPagesDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Movies/Index.cshtml">
+    <Files>
+      <File FileName="Pages/Movies/Create.cshtml.cs" Line="17" Column="37" />
+      <File FileName="Pages/Movies/Index.cshtml" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName">
+
+    <bean id="diAutowireByConstructor" class="com.javacode2018.lesson001.demo1.DiAutowireByConstructor"
+          autowire="constructor"/>
+    <bean class="com.javacode2018.lesson001.demo1.DiAutowireByConstructor.Service1">
+        <property name="desc" value="service1"/>
+    </bean>
+    <bean class="com.javacode2018.lesson001.demo1.DiAutowireByConstructor.Service2">
+        <property name="desc" value="service2"/>
+    </bean>
+
+
+</beans>

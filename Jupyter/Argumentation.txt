@@ -1,0 +1,32 @@
+#1
+
+L = "Ich gehe ins Kino"
+L1 = "es nicht regnet"
+L2 = "jemand mit mir mitgeht"
+L3 = "ich habe Unterricht"
+L4 = "der Bus kommt nicht pünktlich"
+r = L <- L1, L2, not L3, not L4
+L5 =
+
+#2
+
+A = {
+    r1: L <- L1, L2, not L3, not L4
+    r2: L1 <-
+    r4: L2 <- L5
+    r5: L5 <-
+}
+
+#3
+
+// Undercut: Untergraben
+B = {
+    r1': L1 <- not L2
+    
+}
+
+// Rebut: Wiederlegen
+C = {
+    r1": -L <- -L2
+    r2": -L2 <-
+}

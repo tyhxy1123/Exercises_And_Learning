@@ -1,0 +1,46 @@
+A = "Athens"
+B = "Dresden"
+nAB = 3
+nA = 5
+nB = 4
+n = 7
+
+qAB = (7 * 3)/(5 * 4) = 21/20
+
+A = "Athens"
+B = "Berlin"
+n = 7
+nA = 5
+nB = 4
+nAB = 3
+qAB = (7 * 3)/(5 * 4) = 21/20
+
+A = "Athens"
+B = "Paris"
+n = 7
+nA = 5
+nB = 5
+nAB = 3
+qAB = (7 * 3)/(5 * 5) = 21/25
+
+A = "Athens"
+B = "NY"
+n = 7
+nA = 5
+nB = 1
+nAB = 1
+qAB = (7 * 1)/(5 * 1) = 7/5
+
+A = "Berlin"
+B = "Dresden"
+n = 7
+nA = 4
+nB = 4
+nAB = 2
+qAB = (7 * 2)/(4 * 4)= 14/16
+
+A = "Berlin"
+B = "Paris"
+n = 7
+nA = 4
+nB = 4

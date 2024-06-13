@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{5FF7FFAC-50B2-44F3-AC16-B20BB1439525}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StringLibrary/Class1.cs">
+    <Files>
+      <File FileName="StringLibrary/Class1.cs" Line="14" Column="10" />
+      <File FileName="StringLibraryTest/UnitTest1.cs" Line="50" Column="14" />
+      <File FileName="ShowCase/Program.cs" Line="28" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ClassLibraryProjects" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ShowCase PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.StringLibraryTest PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <properties resource="demo01/config.properties"/>
+    <environments default="chat04-demo02">
+        <environment id="chat04-demo02">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper class="com.javacode2018.chat03.demo02.UserMapper"/>
+<!--  以为maven在未设置时，编译后默认不会把UserMapper.xml 放进与UserMapper.calss和UserModel.class同目录下，所以会发生找不到的情况    -->
+    </mappers>
+</configuration>
